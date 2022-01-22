@@ -1,4 +1,13 @@
 # Processing-data-with-python
 
-This is a simple demonstration of using Pandas to create, read, clean, analyze and modify data.
-The python file has the codes and description for each steps and the pdf file shows both codes and the print outs. 
+#Creating a Pandas DataFrame
+
+```
+import pandas as pd
+#creating canned data
+data = {'Week':pd.Series(['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'])
+ ,'Snowfall':pd.Series(['3.5','0.1','1.00','0','4.6','1.0','0.2'])}
+#Reading from a dataframe
+dfcanned = pd.DataFrame(data)
+print("Amount of Snowfall (in) each day of the week: \n",dfcanned)
+```
