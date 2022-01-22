@@ -2,7 +2,7 @@
 
 #Creating a Pandas DataFrame
 
-```
+```python
 import pandas as pd
 #creating canned data
 data = {'Week':pd.Series(['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'])
